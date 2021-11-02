@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import ProfileDialog from './ProfileDialog/ProfileDialog';
+import ProfileDialog from 'cp/ProfileDialog';
 import { mapState, mapGetters } from "vuex";
 export default {
   name: "Header",

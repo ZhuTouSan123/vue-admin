@@ -28,12 +28,12 @@ const router = new Router({
         {
           path: "/index/goodslist",
           name: "商品管理/商品列表",
-          component: () => import("pg/side/Goods/Goodslist/Goodslist"),
+          component: () => import("pg/side/Goodslist"),
         },
         {
           path: "/index/stocklist",
           name: "商品管理/商品库存",
-          component: () => import("pg/side/Goods/Stocklist"),
+          component: () => import("pg/side/Stocklist"),
         },
         {
           path: "/index/users",

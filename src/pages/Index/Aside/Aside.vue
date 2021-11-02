@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import Asidelist from "./Asidelist/Asidelist";
+import Asidelist from "cp/Asidelist";
 export default {
   name: "Aside",
   components: { Asidelist },

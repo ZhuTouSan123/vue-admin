@@ -127,7 +127,7 @@
 </template>
 
 <script>
-import InsertGoods from "./InsertGoods";
+import InsertGoods from "cp/InsertGoods";
 import { mapState } from "vuex";
 export default {
   name: "Goodslist",
